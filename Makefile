@@ -9,7 +9,7 @@ $(GIT_HOOKS):
 	@echo
 
 CC ?= gcc
-CFLAGS = \
+CFLAGS =  \
 	-std=gnu99 -Wall -O0 -g
 LDFLAGS = \
 	-lm
